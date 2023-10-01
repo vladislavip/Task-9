@@ -1,0 +1,91 @@
+*{margin: 0px;
+  padding: 0px;
+ box-sizing: border-box;
+}
+
+
+.container{
+    margin: 5px auto;
+    display:flex;
+
+}
+
+.input-frame{
+
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.interface-frame{
+
+margin: 20px;
+border: 1px solid red;
+width: 100%;
+}
+
+.task-selection{
+display: flex;
+column-gap: 10px;
+justify-content: space-around;
+padding: 10px;
+
+
+}
+
+select{
+
+    width: 100%;
+    margin:10px aito;
+    
+}
+
+.todo, .inprogress, .review, .done{
+border: 1px solid black;
+width: 100%;
+
+}
+.element-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+
+
+}
+.element{
+
+background-color: blue;
+width: 200px;
+padding:10px;
+cursor: move;
+
+}
+
+h2{
+
+    text-align: center;
+}
+
+
+.inprogress-container , .review-container , .done-container , .todo-container{
+
+    border: 2px solid yellow;
+}
+
+/*------------------------------------------------------*/
+
+form{
+
+    padding:10px;
+}
+
+label,input {
+    width: 100%;
+}
